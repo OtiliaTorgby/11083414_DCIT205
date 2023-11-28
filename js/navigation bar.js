@@ -28,7 +28,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   navLinks.forEach(function (link) {
     const linkPath = link.getAttribute("href");
-
     // Check if the link's path is part of the current page's path
     if (currentPage.includes(linkPath)) {
       link.classList.add("active");

@@ -13,11 +13,3 @@ menuBtn.addEventListener("click", function () {
 closeBtn.addEventListener("click", function () {
   navbarlinks.classList.remove("active");
 });
-
-//Home Page
-document.addEventListener("DOMContentLoaded", function () {
-  const typed1 = initializeTyped(
-    ".auto-input1",
-    "YOUR GATEWAY TO WORLD CLASS...."
-  );
-});
