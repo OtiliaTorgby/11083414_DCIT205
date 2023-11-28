@@ -42,6 +42,7 @@ img {
   word-break: break-word;
   hyphens: auto;
 }
+
 #know {
   display: flex;
   flex-direction: column;

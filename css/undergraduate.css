@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", san-serif;
+  border: 0;
+}
+
+.it-cs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.it-cs-column {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.it-cs-column h1 {
+  text-align: center;
+}
+
+.undergraduate-txt,
+.it-cs-progs {
+  padding: 1rem;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.undergraduate-txt-h1 {
+  text-align: center;
+  color: blueviolet;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.undergraduate-txt-p-container {
+  padding-left: 3rem;
+}
+
+.undergraduate-txt-p-container p {
+  text-align: justify;
+}
+
+.undergraduate-txt-p-container ul {
+  list-style: none;
+  text-align: justify;
+  color: black;
+}
+
+.it-cs-h2-container {
+  background-color: blueviolet;
+  padding-bottom: 0.7rem;
+  padding-top: 0.7rem;
+  padding-left: 1.2rem;
+  border-top-left-radius: 1.3rem;
+  border-top-right-radius: 1.3rem;
+}
+
+table {
+  margin-bottom: 2.3rem;
+}
+
+dd {
+  margin-inline-start: 0;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: rgba(74, 74, 96, 0.14) 0px 13px 27px -5px,
+    rgba(230, 126, 126, 0.112) 0px 8px 16px -8px;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+
+dd h4 {
+  margin-top: 0;
+  text-align: center;
+}
+
+dt {
+  padding-top: 1rem;
+  padding-left: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 1rem;
+  background-color: blueviolet;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
+  cursor: pointer;
+}
+
+dt a {
+  text-align: center;
+  color: white;
+  font-weight: 200;
+}
